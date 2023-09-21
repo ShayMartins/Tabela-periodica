@@ -14,9 +14,7 @@
     background-color:white; 
     
   }
-
-    tr:nth-child(even) {
-    
+    tr:nth-child(even) {    
   }
   
  /*cores dos elementos:*/
@@ -24,12 +22,12 @@
 .gas-nobre {background-color: #3d9ee3;}
 .metal-alcalino {background-color: #e2c104;}
 .metal-alcalino-terroso  {background-color:#fded04;}
-.semimetal  {background-color: #4db6ac;}
+.semimetal  {background-color: #3dc4b6;}
 .halogenio  {background-color: #70cbeb;}
 .outros-metais {background-color: #95bccf;}
 .metal-transicao  {background-color: #eb8e8e;}
-.lantanídeos {background-color: #90e3e9;}
-.actinídios {background-color: #d4d0d4;}
+.lantanideo {background-color: #90e3e9;}
+.actinidio {background-color: #ffa6ff;}
  
   
   /* número atômico:*/
