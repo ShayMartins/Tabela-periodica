@@ -1,0 +1,75 @@
+ /* faz um reset básico:*/
+ * {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*Define os estilos de cada célula:*/
+  td, th {
+    border: 2px solid transparent;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+    background-color:white; 
+    
+  }
+
+    tr:nth-child(even) {
+    
+  }
+  
+ /*cores dos elementos:*/
+.nao-metal {background-color: #a1d344;}
+.gas-nobre {background-color: #3d9ee3;}
+.metal-alcalino {background-color: #e2c104;}
+.metal-alcalino-terroso  {background-color:#fded04;}
+.semimetal  {background-color: #4db6ac;}
+.halogenio  {background-color: #70cbeb;}
+.outros-metais {background-color: #95bccf;}
+.metal-transicao  {background-color: #eb8e8e;}
+.lantanídeos {background-color: #90e3e9;}
+.actinídios {background-color: #d4d0d4;}
+ 
+  
+  /* número atômico:*/
+  span {
+    position: center;
+    top: 4px;
+    right: 4px;    
+    font-size: 10px;
+  }
+
+  /*Símbolo do elemento:*/
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  /*Nome do elemento*/
+  p {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+    
+  }
+
+  .valor {
+    display: block;
+    text-align: center;
+    font-size: 8px;
+  }
+  
+  
+  .titulo {
+    background-color: rgb(0, 57, 110);
+    width: 1250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
