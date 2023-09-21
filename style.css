@@ -1,18 +1,17 @@
  
 
  * {
-    margin: auto;
-    padding: 0;
-    box-sizing: border-box;
+  margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing:border-box;	
   }
 
-  main {
-    width: 100%;    
-  }
+  
   
   /*Define os estilos de cada célula:*/
   td, th {
-    border: 2px solid transparent;
+      border: 2px solid transparent;
     text-align: left;
     padding: 8px;
     border-radius: 5px;
@@ -69,7 +68,7 @@
   
   .titulo {
     background-color: rgb(0, 57, 110);
-    width: 1250px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
